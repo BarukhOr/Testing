@@ -1,0 +1,12 @@
+{
+  "name": "PLeaSe Ignore, THis is TeST",
+  "version": "1.0.0",
+  "description": "if one were to make a program what would it do",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "UtibeAbasi",
+  "license": "ISC"
+}
