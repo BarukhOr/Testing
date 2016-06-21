@@ -1,12 +1,53 @@
 {
-  "name": "PLeaSe Ignore, THis is TeST",
+  "name": "testing-one-two-three",
   "version": "1.0.0",
-  "description": "if one were to make a program what would it do",
+  "description": "PLeaSe Ignore, THis is TeST. if one were to make a program what would it do",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node devServer.js",
+    "test": "mocha --compilers js:babel-core/register --require ./test/test_helper.js --recursive ./test",
+    "test:watch": "npm run test -- --watch"
   },
   "keywords": [],
   "author": "UtibeAbasi",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "babel-core": "*",
+    "babel-eslint": "*",
+    "babel-loader": "*",
+    "babel-polyfill": "*",
+    "babel-preset-es2015": "*",
+    "babel-preset-react": "*",
+    "css-loader": "*",
+    "eslint": "*",
+    "eslint-plugin-babel": "*",
+    "eslint-plugin-react": "*",
+    "express": "*",
+    "lodash": "*",
+    "react": "*",
+    "react-addons-css-transition-group": "*",
+    "react-dom": "*",
+    "react-redux": "*",
+    "react-router": "*",
+    "react-router-redux": "*",
+    "react-transform-catch-errors": "*",
+    "react-transform-hmr": "*",
+    "redbox-react": "*",
+    "redux": "*",
+    "rimraf": "*",
+    "style-loader": "*",
+    "stylus": "*",
+    "stylus-loader": "*",
+    "webpack": "*",
+    "webpack-dev-middleware": "*",
+    "webpack-hot-middleware": "^2.10.0"
+  },
+  "devdependencies": {
+    "chai": "*",
+    "chai-jquery": "*",
+    "jquery": "*",
+    "jsdom": "*",
+    "mocha": "*",
+    "react-addons-test-utils": "*"
+  }
 }
